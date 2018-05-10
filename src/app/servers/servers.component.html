@@ -3,6 +3,7 @@
   type="text"
   class="form-control"
   (input)="onUpdateServerName($event)">
+<p>{{ serverName }}</p>
 <button
   class="btn btn-primary"
   [disabled]="!allowNewSever"
